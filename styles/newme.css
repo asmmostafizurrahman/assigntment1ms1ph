@@ -1,11 +1,11 @@
 /* universal */
-* {
+*{
     font-family: 'Work Sans', sans-serif;
     margin: 0;
 }
 
 /* header */
-.header {
+.header{
     background-image: url('../images/banner/banner2.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@
 
 }
 
-.header-text {
+.header-text{
     padding: 230px;
     position: absolute;
 
@@ -24,19 +24,19 @@
 
 }
 
-.header-text>h1 {
+.header-text>h1{
     font-weight: 700;
     font-size: 65px;
     color: #151414;
 }
 
-.header-text>p {
+.header-text>p{
     font-weight: 400;
     font-size: 16px;
     color: #444343;
 }
 
-.header-text>button {
+.header-text>button{
     background: #F15B22;
     color: white;
     font-weight: 600;
@@ -48,14 +48,14 @@
 
 /* body main */
 /* failures */
-.failures {
+.failures{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
     padding: 130px 322px 50px;
 }
 
-.failures-text {
+.failures-text{
     right: 0;
     width: 500px;
     border: 0 solid none;
@@ -63,42 +63,42 @@
 
 }
 
-.failures-text>h2 {
+.failures-text>h2{
     font-weight: 700;
     font-size: 40px;
     padding: 20px;
 }
 
-.failures-text>p {
+.failures-text>p{
     font-weight: 400;
     font-size: 16px;
     padding: 20px;
 }
 
-.failures-text>ul>li {
+.failures-text>ul>li{
     font-weight: 400;
     font-size: 16px;
 }
 
-.failures-text>ul {
+.failures-text>ul{
     list-style: none;
 }
 
-.failures-text>ul>li:before {
+.failures-text>ul>li:before{
     content: '✓';
     color: green;
     font-weight: 300;
 }
 
 /* resolutions */
-.resolutions {
+.resolutions{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
     padding: 130px 322px 50px;
 }
 
-.resolutions-text {
+.resolutions-text{
     right: 0;
     width: 500px;
     border: 0 solid none;
@@ -106,65 +106,65 @@
 
 }
 
-.resolutions-text>h2 {
+.resolutions-text>h2{
     font-weight: 700;
     font-size: 40px;
     padding: 20px;
 }
 
-.resolutions-text>p {
+.resolutions-text>p{
     font-weight: 400;
     font-size: 16px;
     padding: 20px;
 }
 
-.resolutions-text>ul>li {
+.resolutions-text>ul>li{
     font-weight: 400;
     font-size: 16px;
 }
 
-.resolutions-text>ul {
+.resolutions-text>ul{
     list-style: none;
 }
 
-.resolutions-text>ul>li:before {
+.resolutions-text>ul>li:before{
     content: '✓';
     color: green;
     font-weight: 300;
 }
 
 /* plans */
-.plans {
+.plans{
     text-align: center;
     margin-top: 50px;
     padding: 130px 322px 50px;
 }
 
-.plans>h2 {
+.plans>h2{
     font-weight: 700;
     font-size: 40px;
     padding: 50px;
 }
 
-.plans>ul {
+.plans>ul{
 
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
 
-.plans>ul>li {
+.plans>ul>li{
     padding: 50px;
 }
 
-.plans>ul>li>h2 {
+.plans>ul>li>h2{
     font-weight: 700;
     font-size: 30px;
     padding-top: 24px;
     padding-bottom: 16px;
 }
 
-.plans>ul>li>p {
+.plans>ul>li>p{
     font-weight: 500;
     font-size: 25px;
     color: #737272;
@@ -172,9 +172,39 @@
 }
 
 /* call */
-.call {
-    background-image: url('../images/watch.png');
+.call{
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('../images/watch.png');
     background-repeat: no-repeat;
-    margin: 50px 360px;
-    height: 300px;
+    margin: 50px 360px 50px 420px;
+    width: 1140px;
+    border-radius: 8px;
+    text-align: left;
+    
+
+}
+.call-text{
+    padding: 54px;
+    right: 0;
+    width: 460px;
+    border: 0 solid none;
+
+}
+
+.call>.call-text>h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.call>.call-text>button{ 
+    padding: 10px;
+    background: #FFFFFF;
+    color: #F15B22;
+    margin: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+
 }
