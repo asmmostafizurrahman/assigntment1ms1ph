@@ -6,7 +6,7 @@
 
 /* header */
 .header {
-    background-image: url('/images/banner/banner2.png');
+    background-image: url('./images/banner/banner2.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 900px;
