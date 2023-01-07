@@ -103,7 +103,6 @@
     width: 500px;
     border: 0 solid none;
     padding-top: 45px;
-
 }
 
 .resolutions-text>h2{
@@ -147,7 +146,6 @@
 }
 
 .plans>ul{
-
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -168,7 +166,6 @@
     font-weight: 500;
     font-size: 25px;
     color: #737272;
-
 }
 
 /* call */
@@ -179,15 +176,12 @@
     width: 1140px;
     border-radius: 8px;
     text-align: left;
-    
-
 }
 .call-text{
     padding: 54px;
     right: 0;
     width: 460px;
     border: 0 solid none;
-
 }
 
 .call>.call-text>h2{
@@ -206,5 +200,61 @@
     font-size: 20px;
     border: none;
     border-radius: 5px;
+}
+/* footer */
+footer{
+    
+    padding: 250px;
+    background-color: #151414;
+    display: flex;
+    justify-content: space-around; 
+}
+.future{
+    right: 0;
+    width: 500px;
+    border: 0 solid none;
+    color: #FFFFFF;
+}
+.future>h2{
+    font-weight: 700;
+    font-size: 45px;
+}
+.future>p{
+    padding-top: 16px;
+    padding-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.future>section>img{
+    padding-top: 8px;
+    padding-right: 10px;
+}
 
+.subscribe{
+    color: #FFFFFF; 
+}
+.subscribe>h2{
+    padding: 15px;
+}
+.subscribe>input{
+    padding: 10px;
+    color: #FFFFFF;
+    margin: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    border: solid 1px #FFFFFF;
+    border-radius: 5px;
+}
+.subscribe>input:read-write{
+    background-color: #151414;
+}
+
+.subscribe>button{
+    padding: 20px;
+    color: #F15B22;
+    margin: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
 }
