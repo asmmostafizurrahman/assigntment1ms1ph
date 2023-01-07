@@ -83,13 +83,9 @@
 .failures-text>ul{
     list-style: none;
 }
-
-.failures-text>ul>li:before{
-    content: '✓';
+.failures-text>ul>li>i{
     color: green;
-    font-weight: 300;
 }
-
 /* resolutions */
 .resolutions{
     display: flex;
@@ -125,11 +121,8 @@
 .resolutions-text>ul{
     list-style: none;
 }
-
-.resolutions-text>ul>li:before{
-    content: '✓';
+.resolutions-text>ul>li>i{
     color: green;
-    font-weight: 300;
 }
 
 /* plans */
