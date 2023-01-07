@@ -6,7 +6,7 @@
 
 /* header */
 .header {
-    background-image: url('./images/banner/banner2.png');
+    background-image: url('../images/banner/banner2.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 900px;
@@ -169,4 +169,12 @@
     font-size: 25px;
     color: #737272;
 
+}
+
+/* call */
+.call {
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    margin: 50px 360px;
+    height: 300px;
 }
