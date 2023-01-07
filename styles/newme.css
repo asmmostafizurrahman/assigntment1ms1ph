@@ -196,7 +196,7 @@
 }
 /* footer */
 footer{
-    
+    margin-top: 200px;
     padding: 250px;
     background-color: #151414;
     display: flex;
